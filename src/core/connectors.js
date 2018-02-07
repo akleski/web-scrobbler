@@ -1175,7 +1175,7 @@ define(function() {
 		js: ['connectors/resonate.js']
 	}, {
 		label: 'MuzoFM',
-		matches: ['*://muzo.fm/radio','*://www.muzo.fm/radio']
+		matches: ['*://muzo.fm/radio', '*://www.muzo.fm/radio'],
 		js: ['connectors/muzofm.js']
 	}];
 });
