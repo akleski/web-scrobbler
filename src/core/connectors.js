@@ -1173,5 +1173,9 @@ define(function() {
 		label: 'Resonate.is',
 		matches: ['*://resonate.is/album/*', '*://beta.resonate.is/*'],
 		js: ['connectors/resonate.js']
+	}, {
+		label: 'MuzoFM',
+		matches: ['*://muzo.fm/radio','*://www.muzo.fm/radio']
+		js: ['connectors/muzofm.js']
 	}];
 });
